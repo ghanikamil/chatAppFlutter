@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:mini_project_chat_app/presentation/Chat_Page.dart';
-import 'package:mini_project_chat_app/presentation/Login_Page.dart';
+import 'package:mini_project_chat_app/presentation/chat_page.dart';
+import 'package:mini_project_chat_app/presentation/login_page.dart';
 
 
 void main() {
@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: MyHomePage(),
+      home: LoginPage(),
     );
   }
 }
